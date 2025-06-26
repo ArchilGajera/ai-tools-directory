@@ -25,6 +25,7 @@ window.onload = function () {
   });
 };
 
+
 function renderTools(tools) {
   const container = document.getElementById("toolList");
   container.innerHTML = "";
