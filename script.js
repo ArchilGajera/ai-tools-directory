@@ -27,7 +27,7 @@ window.onload = function () {
 
 
 function renderTools(tools) {
-  const container = document.getElementById("toolList");
+  const container = document.getElementById("tool List");
   container.innerHTML = "";
   tools.forEach(tool => {
     container.innerHTML += `
